@@ -13,35 +13,35 @@ jQuery(function(){ // JQuery function call to run code
     });
 
 
-    $( ".b1" ).click(function() {
-        $('.c1').addClass('open-c');
-        $('.c2').removeClass('open-c');
-        $('.c3').removeClass('open-c');
-        $('.c4').removeClass('open-c');
+    $( ".b-0" ).click(function() {
+        $('.c-0').addClass('open-c');
+        $('.c-1').removeClass('open-c');
+        $('.c-2').removeClass('open-c');
+        $('.c-3').removeClass('open-c');
         hamburgerActions();
     });
 
-    $( ".b2" ).click(function() {
-      $('.c2').addClass('open-c');
-      $('.c1').removeClass('open-c');
-      $('.c3').removeClass('open-c');
-      $('.c4').removeClass('open-c');
+    $( ".b-1" ).click(function() {
+      $('.c-1').addClass('open-c');
+      $('.c-0').removeClass('open-c');
+      $('.c-2').removeClass('open-c');
+      $('.c-3').removeClass('open-c');
         hamburgerActions();
     });
 
-    $( ".b3" ).click(function() {
-       $('.c3').addClass('open-c');
-       $('.c2').removeClass('open-c');
-       $('.c1').removeClass('open-c');
-       $('.c4').removeClass('open-c');
+    $( ".b-2" ).click(function() {
+       $('.c-2').addClass('open-c');
+       $('.c-1').removeClass('open-c');
+       $('.c-0').removeClass('open-c');
+       $('.c-3').removeClass('open-c');
         hamburgerActions();
     });
 
-    $( ".b4" ).click(function() {
-       $('.c4').addClass('open-c');
-       $('.c2').removeClass('open-c');
-       $('.c3').removeClass('open-c');
-       $('.c1').removeClass('open-c');
+    $( ".b-3" ).click(function() {
+       $('.c-3').addClass('open-c');
+       $('.c-1').removeClass('open-c');
+       $('.c-2').removeClass('open-c');
+       $('.c-0').removeClass('open-c');
         hamburgerActions();
     });
 
