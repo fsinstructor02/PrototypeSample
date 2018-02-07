@@ -35,9 +35,10 @@
     top: 50px;
     left: -360px;
     height: 430px;
-    background-color: #eee;
+    background-color: #ccc;
     position: absolute;
     transition: 1s left ease-in-out;
+    z-index: 1;
 }
 
 
@@ -56,10 +57,38 @@
     position: absolute;
 }
 
-p {
-    position: relative;
-    width: 100%;
-    height: auto;
-    line-height: 22px;
-    font-size: 20px;
+.image-video {
+    position: absolute;
+    width: 360px;
+    top: 0px;
+    left: 0px;
+    height: 200px;
+    border-bottom:1px solid #ccc;
+    background-color: #eee;
+    box-shadow: #ccc 4px 3px 4px;
+}
+
+.info-content{
+    width: 360px;
+    overflow-y: scroll;
+    position: absolute;
+    height: 220px;
+    bottom: 3px;
+}
+
+.c1,
+.c2,
+.c3,
+.c4 {
+    width: 360px;
+    position: absolute;
+    bottom:0px;
+    right: -460px;
+    height: 430px;
+    transition: 1s right ease-in-out;
+}
+
+
+.open-c{
+    right: 0px;
 }
