@@ -33,7 +33,7 @@
     width: 360px;
     overflow: hidden;
     top: 50px;
-    left: -460px;
+    left: -360px;
     height: 430px;
     background-color: #eee;
     position: absolute;
@@ -54,4 +54,12 @@
     margin: 15px auto;
     font-weight: bold;
     position: absolute;
+}
+
+p {
+    position: relative;
+    width: 100%;
+    height: auto;
+    line-height: 22px;
+    font-size: 20px;
 }
