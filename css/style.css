@@ -77,10 +77,12 @@
 
 .info-content{
     width: 360px;
-    overflow-y: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
     position: absolute;
     height: 220px;
     bottom: 3px;
+    word-wrap: break-word;
 }
 
 .b-0,
